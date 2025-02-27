@@ -1,7 +1,11 @@
-# Ignorar archivos y carpetas innecesarias
-__pycache__/
+# Ignorar entorno virtual
+venv/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos temporales
 *.pyc
 *.pyo
-.env
-.venv/
-.DS_Store
+__pycache__/
