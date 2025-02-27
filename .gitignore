@@ -1,0 +1,7 @@
+# Ignorar archivos y carpetas innecesarias
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+.DS_Store
